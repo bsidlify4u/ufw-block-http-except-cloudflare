@@ -1,6 +1,6 @@
 # ufw-block-http-except-cloudflare
 This is a shell script that will allow your to block all http and https traffic
-from the internet and allow only cloudflares IP Block. It will then generate a ufw allow command
+from the internet and allow only cloudflares IP Block and SSH Access to Port 22 from Anywhere. It will then generate a ufw allow command
 for all of Cloudflares IP Block.
 
 This script is designed for debian based linux servers using the UFW (Uncomplicated Firewall)
@@ -18,7 +18,7 @@ will force all http/https traffic through cloudflare.
 
 3. Download the installer script.
 
-<code>wget https://raw.githubusercontent.com/clusterednetworks/ufw-block-http-except-cloudflare/master/cloudflare-ufw.sh</code>
+<code>wget https://github.com/bsidlify4u/ufw-block-http-except-cloudflare/blob/master/cloudflare-ufw.sh</code>
 
 4. Make the script executable
 
